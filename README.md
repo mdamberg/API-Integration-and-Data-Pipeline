@@ -14,31 +14,31 @@ Key Features & Techniques Used:
 
 Workflow:
   1.	API Authentication:
-  2.	  Configured API access using secure tokens to ensure authorized data retrieval.
+    o Configured API access using secure tokens to ensure authorized data retrieval.
 
-3.	Data Retrieval:
-  o	Fetched survey details and responses, handling pagination to capture large datasets efficiently.
-
-4.	Data Processing:
-  o	Transformed response data into structured tables, mapping question IDs to meaningful text.
-
-5.	Export & Reporting:
-  o	Saved the processed data into Excel files for easy sharing and visualization.
+  3.	Data Retrieval:
+    o	Fetched survey details and responses, handling pagination to capture large datasets efficiently.
+  
+  4.	Data Processing:
+    o	Transformed response data into structured tables, mapping question IDs to meaningful text.
+  
+  5.	Export & Reporting:
+    o	Saved the processed data into Excel files for easy sharing and visualization.
 
 Use Cases:
-•	Automating survey response collection for ongoing feedback.
-•	Simplifying data analysis by transforming API data into readable formats.
-•	Enhancing reporting capabilities for health monitoring and infection control.
+  •	Automating survey response collection for ongoing feedback.
+  •	Simplifying data analysis by transforming API data into readable formats.
+  •	Enhancing reporting capabilities for health monitoring and infection control.
 Technology Stack:
-•	Programming Language: Python
-•	Libraries: Pandas, Requests
-•	Data Source: SurveyMonkey API
-•	Output: Excel Report
+  •	Programming Language: Python
+  •	Libraries: Pandas, Requests
+  •	Data Source: SurveyMonkey API
+  •	Output: Excel Report
 Challenges & Solutions:
-•	Handling Complex JSON Structures:
-  o	Implemented recursive data extraction techniques to handle nested JSON data.
-•	Ensuring Data Accuracy:
-  o	Validated API responses and handled errors gracefully to ensure reliable data extraction.
+  •	Handling Complex JSON Structures:
+    o	Implemented recursive data extraction techniques to handle nested JSON data.
+  •	Ensuring Data Accuracy:
+    o	Validated API responses and handled errors gracefully to ensure reliable data extraction.
 Future Improvements:
-•	Automate the pipeline with scheduled scripts or cloud-based workflows.
-•	Integrate with data visualization tools like Power BI or Tableau for enhanced insights.
+  •	Automate the pipeline with scheduled scripts or cloud-based workflows.
+  •	Integrate with data visualization tools like Power BI or Tableau for enhanced insights.
