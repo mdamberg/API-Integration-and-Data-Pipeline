@@ -14,15 +14,15 @@ Key Features & Techniques Used:
 
 Workflow:
   1.	API Authentication:
-    o	Configured API access using secure tokens to ensure authorized data retrieval.
+  2.	  Configured API access using secure tokens to ensure authorized data retrieval.
 
-2.	Data Retrieval:
+3.	Data Retrieval:
   o	Fetched survey details and responses, handling pagination to capture large datasets efficiently.
 
-3.	Data Processing:
+4.	Data Processing:
   o	Transformed response data into structured tables, mapping question IDs to meaningful text.
 
-4.	Export & Reporting:
+5.	Export & Reporting:
   o	Saved the processed data into Excel files for easy sharing and visualization.
 
 Use Cases:
