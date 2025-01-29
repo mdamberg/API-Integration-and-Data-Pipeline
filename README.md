@@ -67,13 +67,6 @@ In this project, I developed a **data pipeline** to automate the retrieval and p
 
 ---
 
-### **📌 How to Use**
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/mdamberg/your-repo-name.git
-   cd your-repo-name
-
-
 📢 Author
 👤 Matt Damberg
 📧 Email: mattdamberg@gmail.com
